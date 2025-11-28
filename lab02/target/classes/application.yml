@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/lab02db
+    username: postgres
+    password: 2420
+    driver-class-name: org.postgresql.Driver
+  sql:
+    init:
+      mode: always
+  main:
+    allow-bean-definition-overriding: true
+server:
+  port: 8080
